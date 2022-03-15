@@ -1,0 +1,12 @@
+.footer_container{
+    background-image: linear-gradient(to right, #161616 0%, black 100%);
+    width: 100vw;
+    height: 9vh;
+    border-top: 4px solid white;
+}
+.footer_container h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}

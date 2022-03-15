@@ -1,0 +1,12 @@
+.header_container{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    width: 100vw;
+    height: 9vh;
+    border-bottom: 4px solid white;
+}
+.header_container h1{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}

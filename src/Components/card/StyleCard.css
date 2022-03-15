@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Container{
+    
+    color: white;
+    font-family: cursive;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vh;
+    flex-wrap: wrap;
+    z-index: 1;  
+}
+.Card{
+
+    position: relative;
+    width: 20vw;
+    height: 60vh;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(34, 34, 34);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solig white;
+    border-left: 1px solid white;
+
+}
+.Content{
+    font-size: 18px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.Content:hover{
+transform: translateY(0px);
+opacity: 1;
+}
+img{
+    width: 95%;
+    height: 13vh;
+    margin-bottom: 60px;
+}
+.Content h2{
+    text-align: center;   
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.Content a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    background-color: rgb(224, 224, 224);
+    width: 12vw;
+    height: 8vh;
+    border-radius: 10px;    
+}
